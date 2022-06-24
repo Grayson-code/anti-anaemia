@@ -11,6 +11,7 @@ const Home: NextPage = () => {
         Under Construction, Check Regularly for Vaccine updates, as currently working on a cure!
       </p>
       <p className='fixed bottom-0 right-0'>Made With Seriousness by Adwaith💙</p>
+      <p className='text-white'>Spoiler, It affects your fingers, or finger.</p>
     </div>
   )
 }
