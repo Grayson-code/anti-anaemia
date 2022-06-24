@@ -5,7 +5,10 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Anti Anaemia Program</title>
+        <title>Anti Anaemia22 Program</title>
+        <meta property='og:url' content="http://anti-anaemia.vercel.app/"/>
+        <meta property='og:type' content="article"/>
+        <meta property='og:description' content="Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad."/>
       </Head>
       <p className="flex h-screen justify-center items-center">
         Under Construction, Check Regularly for Vaccine updates, as currently working on a cure.

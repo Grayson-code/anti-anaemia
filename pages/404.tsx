@@ -5,11 +5,18 @@
 
 import React from 'react'
 import type { NextPage } from 'next'
-
+import Head from 'next/head'
 const Page404: NextPage = () => {
   return (
     <div className='flex p-2 justify-center h-screen items-center'>
-        <p className='font-bold'>Something Very Terrible Happended On Your End, Figure it out for yourself.</p>
+      <Head>
+        <title>Anti Anaemia22 Program</title>
+        <meta property='og:url' content="http://anti-anaemia.vercel.app/" />
+        <meta property='og:type' content="article" />
+        <meta property='og:description' content="Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad." />
+      </Head>
+      <p className='font-bold'>Something Very Terrible Happended On Your End, Figure it out for yourself.</p>
+
     </div>
   )
 }
