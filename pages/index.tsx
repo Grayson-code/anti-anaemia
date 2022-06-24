@@ -6,6 +6,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Anti Anaemia22 Program</title>
+        <meta property='og:title' content="Anti Anaemia Program"/>
         <meta property='og:url' content="http://anti-anaemia.vercel.app/"/>
         <meta property='og:type' content="article"/>
         <meta property='og:description' content="Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad."/>
