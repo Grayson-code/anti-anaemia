@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
       </p>
       <div>
-        <p className='fixed bottom-0 right-0 p-2'>Made With definite Seriousness by <a href='https://twitter.com/NorthernStare'>Adwaith✨</a></p>
+        <p className='fixed bottom-0 right-0 p-2'>Made With definite Seriousness by Adwaith✨</p>
       </div>
 
       <p className='text-white'>Spoiler, It affects your fingers, or finger.</p>
