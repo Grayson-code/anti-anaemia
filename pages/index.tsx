@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         <meta property='og:description' content="Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad." />
       </Head>
       <p className="flex h-screen justify-center items-center">
-        Under Construction, Check Regularly for Vaccine updates, as currently working on a cure.
+        There is no vaccine. but taking Corbevax does help. from personal experience.
       </p>
       <p className='fixed bottom-0 left-0 p-2'>Support This Project By donating to this XMR Address:
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
