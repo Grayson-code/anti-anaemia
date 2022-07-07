@@ -10,6 +10,7 @@ import { StatsVisits } from '../components'
 import Link from 'next/link'
 import { NotificationsProvider, showNotification } from '@mantine/notifications';
 import { MantineProvider } from '@mantine/core'
+import Head from 'next/head'
 
 const Stats = () => {
   const [visits, setVisits] = useState('')
@@ -28,6 +29,9 @@ const Stats = () => {
   return (
     <MantineProvider>
       <NotificationsProvider>
+        <Head>
+          <title>Anti Anaemia22 Program</title>
+        </Head>
         <div>
           <div className="flex justify-center h-screen items-center">
             <p className='border p-8 rounded-xl border-gray-200 shadow-xl'>
