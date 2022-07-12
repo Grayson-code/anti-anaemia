@@ -7,7 +7,6 @@ import React, { useEffect, useState } from 'react'
 import { db } from '../components/firebase'
 import { doc, getDoc } from 'firebase/firestore'
 import { StatsVisits } from '../components'
-import Link from 'next/link'
 import { NotificationsProvider, showNotification } from '@mantine/notifications';
 import { MantineProvider } from '@mantine/core'
 import Head from 'next/head'
@@ -18,10 +17,6 @@ const Stats = () => {
     const loadVisit = async () => {
       const document = doc(db, "stats", "visits")
       let visit = (await getDoc(document) as unknown as StatsVisits)
-      showNotification({
-        title: 'Please Visit My Instagram!',
-        message: 'instagram.com/northernstaregg/',
-      })
       setVisits(visit._document.data.value.mapValue.fields.numbers.integerValue)
     }
     loadVisit()
