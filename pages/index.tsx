@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
       </p>
       <div>
-        <p className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made With definite Seriousness by Adwaith✨</p>
+        <p className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made by researchers at Lambda School</p>
       </div>
 
       <p className='text-white'>Spoiler, It affects your fingers, or finger.</p>
