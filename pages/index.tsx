@@ -30,6 +30,11 @@ const Home: NextPage = () => {
         <meta property='og:url' content="http://anti-anaemia.vercel.app/" />
         <meta property='og:type' content="website" />
         <meta property='og:description' content="Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad." />
+        <meta property='twitter:card' content='summary' />
+        <meta property='twitter:site' content='@NorthernStare' />
+        <meta property='twitter:title' content='Anti Anaemia Corporation' />
+        <meta property='twitter:description' content='Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad.' />
+        <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
       <p className="flex h-screen justify-center items-center">
         There is no vaccine. but taking Corbevax does help. from personal experience.

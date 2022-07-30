@@ -26,6 +26,11 @@ const Stats = () => {
       <NotificationsProvider>
         <Head>
           <title>Anti Anaemia22 Program</title>
+          <meta property='twitter:card' content='summary' />
+          <meta property='twitter:site' content='@NorthernStare' />
+          <meta property='twitter:title' content='Anti Anaemia Corporation' />
+          <meta property='twitter:description' content='Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad.' />
+          <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
         </Head>
         <div>
           <div className="flex justify-center h-screen items-center">
