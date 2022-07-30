@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
 
   return (
-    <div className='bg-gradient-to-r from-blue-600 via-emerald-900 to-purple-600 font-bold'>
+    <div className='bg-gradient-to-r from-blue-600 to-purple-600 font-bold'>
       <Head>
         <title>Anti Anaemia22 Program</title>
         <meta property='og:title' content="Anti Anaemia Program" />
