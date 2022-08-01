@@ -33,6 +33,18 @@ const Stats = () => {
           <meta property='twitter:url' content='http://anti-anaemia.vercel.app/stats' />
         </Head>
         <div>
+          <div className='fixed top-0 left-0'>
+            <div
+              className="p-4 text-red-700 border rounded border-red-900/10 bg-red-50"
+              role="alert"
+            >
+              <strong className="text-sm font-medium"> Major Bug! </strong>
+
+              <p className="mt-1 text-xs">
+                There is a major bug with the database so measurements wont be quite accurate.
+              </p>
+            </div>
+          </div>
           <div className="flex justify-center h-screen items-center">
             <p className='border p-8 rounded-xl border-gray-200 shadow-xl'>
               {visits} Unique Visits of all time!
