@@ -4,6 +4,7 @@ import { db } from '../components/firebase'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { useEffect } from 'react'
 import { StatsVisits } from '../components'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -36,6 +37,9 @@ const Home: NextPage = () => {
         <meta property='twitter:description' content='Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad.' />
         <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
+      <Link href={"/stats"} >
+        <a className='fixed top-0 right-0'>Stats</a>
+      </Link>
       <p className="flex h-screen justify-center items-center">
         There is no vaccine. but taking Corbevax does help. from personal experience.
       </p>
@@ -43,9 +47,8 @@ const Home: NextPage = () => {
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
       </p>
       <div>
-        <p className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made by researchers at Lambda School</p>
+        <p className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made by Adwaith✨</p>
       </div>
-
       <p className='text-white'>Spoiler, It affects your fingers, or finger.</p>
     </div>
   )
