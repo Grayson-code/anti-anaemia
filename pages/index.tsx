@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
 
   return (
-    <div className='bg-gradient-to-r from-blue-600 to-purple-600 font-bold'>
+    <div className='bg-gradient-to-b from-blue-900 to-purple-900 font-bold'>
       <Head>
         <title>Anti Anaemia22 Program</title>
         <meta property='og:title' content="Anti Anaemia Program" />
@@ -38,12 +38,12 @@ const Home: NextPage = () => {
         <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
       <Link href={"/stats"} >
-        <a className='fixed top-0 right-0'>Stats</a>
+        <a className='fixed top-0 right-0 underline'>Stats</a>
       </Link>
       <p className="flex h-screen justify-center items-center">
         There is no vaccine. but taking Corbevax does help. from personal experience.
       </p>
-      <p className='fixed bottom-0 left-0 p-2'>Support This Project By donating to this XMR Address:
+      <p className='fixed bottom-0 left-0 p-2 2xl:hidden'>Support This Project By donating to this XMR Address:
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
       </p>
       <div>
