@@ -47,7 +47,10 @@ const Home: NextPage = () => {
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
       </p>
       <div>
-        <p className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made by Adwaith✨</p>
+        <Link href="https://twitter.com/NorthernStare">
+          <a className='fixed p-2 sm:bottom-0 top-0 lg:top-0 '>Made by Adwaith✨</a>
+        </Link>
+
       </div>
       <div>
         <Link href={"https://github.com/Grayson-code/anti-anaemia"}>
