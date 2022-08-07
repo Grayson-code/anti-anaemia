@@ -1,28 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { db } from '../components/firebase'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { useEffect } from 'react'
-import { StatsVisits } from '../components'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
-  useEffect(() => {
-    const visited = localStorage.getItem('visited')
-    if (!visited) {
-      const a = async () => {
-        const document = doc(db, "stats", "visits")
-        let visits = (getDoc(document) as unknown as StatsVisits)
-        await setDoc(document, {
-          numbers: parseInt(visits._document.data.value.mapValue.fields.numbers.integerValue) + 1
-        });
-        localStorage.setItem('visited', 'true')
-      }
-      a()
-    }
-  }, [])
-
-
   return (
     <div className='bg-gradient-to-b from-blue-900 to-purple-900 font-bold'>
       <Head>
