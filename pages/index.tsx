@@ -1,7 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { doc, getDoc, setDoc } from 'firebase/firestore'
-import { useEffect } from 'react'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
