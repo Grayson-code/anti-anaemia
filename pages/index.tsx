@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <a className='fixed top-0 right-0 underline'>Stats</a>
       </Link>
       <p className="flex h-screen justify-center items-center">
-        There is no vaccine. but taking Corbevax does help. from personal experience.
+        There is no vaccine, No cure, This is a terminal disease. Supportive care is the best option for you after infection.
       </p>
       <p className='fixed bottom-0 left-0 p-2 2xl:hidden'>Support This Project By donating to this XMR Address:
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
