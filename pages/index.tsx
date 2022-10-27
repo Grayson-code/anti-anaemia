@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-gradient-to-b from-blue-900 to-purple-900 font-bold'>
+    <div className='bg-gradient-to-b from-blue-900 to-purple-900 font-bold hover:bg-gradient-to-t'>
       <Head>
         <title>Anti Anaemia22 Program</title>
         <meta property='og:title' content="Anti Anaemia Program" />
