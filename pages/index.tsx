@@ -17,9 +17,6 @@ const Home: NextPage = () => {
         <meta property='twitter:description' content='Anti Anaemia22 Program is a world class program that will save millions of lives by preventing people from going mad.' />
         <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
-      <Link href={"/stats"} >
-        <a className='fixed top-0 right-0 underline'>Stats</a>
-      </Link>
       <p className="flex h-screen justify-center items-center">
         There is no vaccine, No cure, This is a terminal disease. Bio-Safety Level 4 Advised.
       </p>
