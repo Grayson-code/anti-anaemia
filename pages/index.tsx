@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
+  
   return (
     <div className='bg-gradient-to-b from-blue-900 to-purple-900 font-bold hover:bg-gradient-to-tee'>
       <Head>
@@ -18,7 +19,7 @@ const Home: NextPage = () => {
         <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
       <p className="flex h-screen justify-center items-center">
-        There is no vaccine, No cure, This is a terminal disease. Bio-Safety Level 4 Advised.
+        Thanks to the immense support given by the research and analysis team, we have founded a long term vaccine, and a sufisticated cure to Anemia22, the cure to the disease will be revealed in a mundane fashion on January the 23rd ! WARNING Bio-Safety Level 4 Advised. WARNING !
       </p>
       <p className='fixed bottom-0 left-0 p-2 2xl:hidden'>Support This Project By donating to this XMR Address:
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
