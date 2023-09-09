@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </Link>
 
       </div>
-      <p className='text-white'>Spoiler, It affects your fingers, or finger.</p>
+      <p className='text-white'>Spoiler, my life was ruined cuz of this stupidity, please dont trust humans again</p>
     </div>
   )
 }
