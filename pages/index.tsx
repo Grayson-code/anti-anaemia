@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </Link>
 
       </div>
-      <p className='text-white'>Department of Bio-Chemical Hazards Mitigation, Taskforce - "Alpha-Charlie 9-0"</p>
+      <p className='text-white'>Department of Bio-Chemical Hazards Mitigation, Taskforce - &quot;Alpha-Charlie 9-0&quot;</p>
     </div>
   )
 }
