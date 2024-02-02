@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         Thanks to the immense support given by the research and analysis team, we have founded a long term vaccine, and a sufisticated cure to Anemia22.
       </p>
       <p className="flex h-screen justify-center items-center">
-         The cure to the disease will be revealed in a mundane fashion on January the 23rd ! WARNING Bio-Safety Level 4 Advised. WARNING !
+         The cure to the disease will be announced to the nation by our honorary chairman, Sir Unnikuttan PP Sundar Das ! WARNING Bio-Safety Level 4 Advised. WARNING !
       </p>
       <p className='fixed bottom-0 left-0 p-2 2xl:hidden'>Support This Project By donating to this XMR Address:
         <p className='font-bold'>4673HBXWDsJBWaX8eNSuZE3WJsjrsrDU8jMTafFZzvhj9aF4gSaGvewDbKKmBk22LyF8yuVr2trHTLmjyY2aXLzw2e7yQWL</p>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </Link>
 
       </div>
-      <p className='text-white'>Spoiler, my life was ruined cuz of this stupidity, please dont trust humans again</p>
+      <p className='text-white'>Department of Bio-Chemical Hazards Mitigation, Taskforce - "Alpha-Charlie 9-0"</p>
     </div>
   )
 }
