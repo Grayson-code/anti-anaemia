@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <meta property='twitter:url' content='http://anti-anaemia.vercel.app/' />
       </Head>
       <p className="flex h-screen justify-center items-center">
-        Thanks to the immense support given by the research and analysis team, we have founded a long term vaccine, and a sufisticated cure to Anemia22.
+        Thanks to the immense support given by the research and analysis team, we have founded a long term vaccine, and a sufisticated cure to Anemia22. also has anyone seen athmaja? i think shes under one of them microscopes in a petri dish
       </p>
       <p className="flex h-screen justify-center items-center">
          The cure to the disease will be announced to the nation by our honorary chairman, Sir Unnikuttan PP Sundar Das ! WARNING Bio-  Safety Level 4 Advised. WARNING !
